@@ -1,0 +1,19 @@
+# Created with WinGet Releaser using komac v2.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: LlamaFarm.CLI
+PackageVersion: 0.0.6
+InstallerType: portable
+UpgradeBehavior: install
+Commands:
+- lf
+ReleaseDate: 2025-10-02
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/llama-farm/llamafarm/releases/download/v0.0.6/lf-windows-amd64.exe
+  InstallerSha256: 4F270D12E1A5D98B9D8DDBC7A7C477145D7101CB43F2653677D5BEED4E7D3EFB
+- Architecture: arm64
+  InstallerUrl: https://github.com/llama-farm/llamafarm/releases/download/v0.0.6/lf-windows-arm64.exe
+  InstallerSha256: DC9157212F739D297E22A3C4B5C980C575D7CF329C8E8CEFDAC90F400F009A34
+ManifestType: installer
+ManifestVersion: 1.10.0
